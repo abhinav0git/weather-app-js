@@ -1,7 +1,7 @@
 # Weather App using JavaScript
 Simple Weather App
 
-# Tools Used
+# tools used
 - Html
 - CSS
 - JavaScript
