@@ -1,4 +1,4 @@
-# weather-app-js
+# Weather App using JavaScript
 Simple Weather App
 
 # Tools Used
