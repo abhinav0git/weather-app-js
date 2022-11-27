@@ -1,11 +1,11 @@
-# weather app using javascript
+# Weather App using Javascript
 Simple Weather App
 
-# tools used
+# Tools used
 - Html
 - CSS
 - JavaScript
 
-# few updates
+# Few updates
 - removed Unsplash random image api from the website background since it keeps getting down
  
