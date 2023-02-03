@@ -1,5 +1,5 @@
 let weather = {
-  apiKey: "7b1533986d011f936559f3bd05b53f02",
+   apiKey: "7b1533986d011f936559f3bd05b53f02",
   fetchWeather: function (city) {
     fetch(
       "https://api.openweathermap.org/data/2.5/weather?q=" +
@@ -31,7 +31,9 @@ let weather = {
     document.querySelector(".wind").innerText =
       "Wind speed: " + speed + " km/h";
     document.querySelector(".weather").classList.remove("loading");
-    document.body.style.backgroundImage = "url('https://picsum.photos/1920/1080')";},
+    document.body.style.backgroundImage =
+      "url('https://i.picsum.photos/id/18/2500/1667.jpg?hmac=JR0Z_jRs9rssQHZJ4b7xKF82kOj8-4Ackq75D_9Wmz8')";
+    },
   search: function () {
     this.fetchWeather(document.querySelector(".search-bar").value);
   },
