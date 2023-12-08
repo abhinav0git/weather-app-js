@@ -16,6 +16,7 @@ let weather = {
       })
       .then((data) => this.displayWeather(data));
   },
+  
   displayWeather: function (data) {
     const { name } = data;
     const { icon, description } = data.weather[0];
@@ -38,6 +39,7 @@ let weather = {
     this.fetchWeather(document.querySelector(".search-bar").value);
   },
 };
+
 
 document.querySelector(".search button").addEventListener("click", function () {
   weather.search();
