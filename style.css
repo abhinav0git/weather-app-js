@@ -6,11 +6,11 @@ body {
   margin: 0;
   font-family: 'Open Sans', sans-serif;
   font-size: 120%;
+  background-image: url(/weather-app-js/media/bg_image_alt.jpg);
 }
 
 .card {
-  background: #000000c7;
-  background-image: url(/weather-app-js/media/bg_image_alt.jpg);
+  background: rgba(0, 0, 0, 0.78); 
   color: white;
   padding: 2em;
   border-radius: 30px;
