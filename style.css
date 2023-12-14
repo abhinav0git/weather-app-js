@@ -6,7 +6,7 @@ body {
   margin: 0;
   font-family: 'Open Sans', sans-serif;
   font-size: 120%;
-  background-image: url(/weather-app-js/media/bg_image_alt.jpg);
+  background-image: none;
 }
 
 .card {
